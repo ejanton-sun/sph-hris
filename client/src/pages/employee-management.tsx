@@ -61,10 +61,10 @@ const EmployeeManagement: NextPage = (): JSX.Element => {
               type="button"
               variant="primary"
               onClick={handleToggle}
-              className="flex items-center space-x-0.5 px-1.5 py-[3px]"
+              className="flex items-center space-x-1 px-1.5 py-[3px]"
             >
               <Plus className="h-4 w-4" /> {''}
-              Add Employee
+              <span>Employee</span>
             </Button>
           </div>
           {/* File New Overtime Modal */}
